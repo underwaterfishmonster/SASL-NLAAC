@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        button {
+        .large-text {
+    font-size: 50px;
+            color: black;
+            background-color: babyblue;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>South African Sign Language Detector</title>
+</head>
+<body>
+    <h1 style = Helvetica, sans-serif >South African Sign Language Detector</h1>
+    <h2>One hand at a time or else it might crash and you will leave the website :)</h2>
+    <button id="toggleButton">Turn on Webcam to start detecting SASL!</button>
+    <div id="videoContainer"></div>
+    <img src="{{ url_for('video_feed_route') }}" alt="Video Stream">
+
+</body>
+</html>
